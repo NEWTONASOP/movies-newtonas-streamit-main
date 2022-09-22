@@ -1,0 +1,2648 @@
+<!doctype html>
+<html lang="en-US">
+
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Streamit by NEWTON_AS</title>
+   <!-- Favicon -->
+   <link rel="shortcut icon" href="images/favicon.ico" />
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="css/bootstrap.min.css" />
+   <!-- Typography CSS -->
+   <link rel="stylesheet" href="css/typography.css">
+   <!-- Style -->
+   <link rel="stylesheet" href="css/style.css" />
+   <!-- Responsive -->
+   <link rel="stylesheet" href="css/responsive.css" />
+</head>
+
+<body>
+   <!-- loader Start -->
+   <div id="loading">
+      <div id="loading-center">
+      </div>
+   </div>
+   <!-- loader END -->
+   <!-- Header -->
+   <header id="main-header">
+      <div class="main-header">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12">
+                  <nav class="navbar navbar-expand-lg navbar-light p-0">
+                     <a href="#" class="navbar-toggler c-toggler" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="navbar-toggler-icon" data-toggle="collapse">
+                           <span class="navbar-menu-icon navbar-menu-icon--top"></span>
+                           <span class="navbar-menu-icon navbar-menu-icon--middle"></span>
+                           <span class="navbar-menu-icon navbar-menu-icon--bottom"></span>
+                        </div>
+                     </a>
+                     <a class="navbar-brand" href=""> <img class="img-fluid logo" src="images/logo.png"
+                           alt="streamit" /> </a>
+                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="menu-main-menu-container">
+                           <ul id="top-menu" class="navbar-nav ml-auto">
+                              <li class="menu-item">
+                                 <a href="https://streamit.newtonas.tk">Home</a>
+                              </li>
+                              <li class="menu-item">
+                                 <a href="#">Anime</a>
+                              </li>
+                              <li class="menu-item">
+                                 <a href="all-movies.html">Movies</a>
+                              </li>
+                              <!-- <li class="menu-item">
+                                 <a href="https://www.youtube.com/moviesnewtonastk" target="_blank">Youtube</a>
+                              </li>
+                              <li class="menu-item">
+                                 <a href="https://discord.gg/pKCQg75e" target="_blank">Discord</a>
+                              </li> -->
+                              <li class="menu-item">
+                                 <a href="how-to-open-links.html" target="_blank">How to Open Links</a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="mobile-more-menu">
+                        <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton"
+                           data-toggle="more-toggle" aria-haspopup="true" aria-expanded="false">
+                           <i class="ri-more-line"></i>
+                        </a>
+                        <div class="more-menu" aria-labelledby="dropdownMenuButton">
+                           <div class="navbar-right position-relative">
+                              <ul class="d-flex align-items-center justify-content-end list-inline m-0">
+                                 <li>
+                                    <a href="#" class="search-toggle">
+                                       <i class="ri-search-line"></i>
+                                    </a>
+                                    <div class="search-box iq-search-bar">
+                                       <form action="#" class="searchbox">
+                                          <div class="form-group position-relative">
+                                             <input type="text" id="mySearch" onkeyup="myFunction()"
+                                                class="text search-input font-size-12"
+                                                placeholder="type here to search...">
+                                             <i class="search-link ri-search-line"></i>
+                                          </div>
+                                       </form>
+                                    </div>
+                                 </li>
+                                 <!-- <li class="nav-item nav-icon">
+                                    <a href="#" class="search-toggle position-relative">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22"
+                                          height="22" class="noti-svg">
+                                          <path fill="none" d="M0 0h24v24H0z" />
+                                          <path
+                                             d="M18 10a6 6 0 1 0-12 0v8h12v-8zm2 8.667l.4.533a.5.5 0 0 1-.4.8H4a.5.5 0 0 1-.4-.8l.4-.533V10a8 8 0 1 1 16 0v8.667zM9.5 21h5a2.5 2.5 0 1 1-5 0z" />
+                                       </svg>
+                                       <span class="bg-danger dots"></span>
+                                    </a>
+                                    <div class="iq-sub-dropdown">
+                                       <div class="iq-card shadow-none m-0">
+                                          <div class="iq-card-body">
+                                             <a href="#" class="iq-sub-card">
+                                                <div class="media align-items-center">
+                                                   <img src="images/notify/thumb-1.jpg" class="img-fluid mr-3"
+                                                      alt="streamit" />
+                                                   <div class="media-body">
+                                                      <h6 class="mb-0 ">Boop Bitty</h6>
+                                                      <small class="font-size-12"> just now</small>
+                                                   </div>
+                                                </div>
+                                             </a>
+                                             <a href="#" class="iq-sub-card">
+                                                <div class="media align-items-center">
+                                                   <img src="images/notify/thumb-2.jpg" class="img-fluid mr-3"
+                                                      alt="streamit" />
+                                                   <div class="media-body">
+                                                      <h6 class="mb-0 ">The Last Breath</h6>
+                                                      <small class="font-size-12">15 minutes ago</small>
+                                                   </div>
+                                                </div>
+                                             </a>
+                                             <a href="#" class="iq-sub-card">
+                                                <div class="media align-items-center">
+                                                   <img src="images/notify/thumb-3.jpg" class="img-fluid mr-3"
+                                                      alt="streamit" />
+                                                   <div class="media-body">
+                                                      <h6 class="mb-0 ">The Hero Camp</h6>
+                                                      <small class="font-size-12">1 hour ago</small>
+                                                   </div>
+                                                </div>
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li> -->
+                                 <li>
+                                    <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center">
+                                       <img src="images/user/user.jpg" class="img-fluid avatar-40 rounded-circle"
+                                          alt="user">
+                                    </a>
+                                    <div class="iq-sub-dropdown iq-user-dropdown">
+                                       <div class="iq-card shadow-none m-0">
+                                          <div class="iq-card-body p-0 pl-3 pr-3">
+                                             <a href="#" class="iq-sub-card setting-dropdown">
+                                                <div class="media align-items-center">
+                                                   <div class="right-icon">
+                                                      <i class="ri-file-user-line text-primary"></i>
+                                                   </div>
+                                                   <div class="media-body ml-3">
+                                                      <h6 class="mb-0 ">Manage Profile</h6>
+                                                   </div>
+                                                </div>
+                                             </a>
+                                             <a href="#" class="iq-sub-card setting-dropdown">
+                                                <div class="media align-items-center">
+                                                   <div class="right-icon">
+                                                      <i class="ri-settings-4-line text-primary"></i>
+                                                   </div>
+                                                   <div class="media-body ml-3">
+                                                      <h6 class="mb-0 ">Settings</h6>
+                                                   </div>
+                                                </div>
+                                             </a>
+                                             <a href="#" class="iq-sub-card setting-dropdown">
+                                                <div class="media align-items-center">
+                                                   <div class="right-icon">
+                                                      <i class="ri-settings-4-line text-primary"></i>
+                                                   </div>
+                                                   <div class="media-body ml-3">
+                                                      <h6 class="mb-0 ">Pricing Plan</h6>
+                                                   </div>
+                                                </div>
+                                             </a>
+                                             <a href="#" class="iq-sub-card setting-dropdown">
+                                                <div class="media align-items-center">
+                                                   <div class="right-icon">
+                                                      <i class="ri-logout-circle-line text-primary"></i>
+                                                   </div>
+                                                   <div class="media-body ml-3">
+                                                      <h6 class="mb-0">Logout</h6>
+                                                   </div>
+                                                </div>
+                                             </a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="navbar-right menu-right">
+                        <ul class="d-flex align-items-center list-inline m-0">
+                           <li class="nav-item nav-icon">
+                              <a href="#" class="search-toggle device-search">
+                                 <i class="ri-search-line"></i>
+                              </a>
+                              <div class="search-box iq-search-bar d-search">
+                                 <form action="#" class="searchbox">
+                                    <div class="form-group position-relative">
+
+                                       <input type="text" id="mySearch" onkeyup="myFunction()"
+                                          class="text search-input font-size-12" placeholder="type here to search...">
+                                       <!--                                           <script async src="https://cse.google.com/cse.js?cx=e69b4a48cf5272ecf"></script>
+                                          <div class="gcse-search"></div> -->
+
+                                       <i class="search-link ri-search-line"></i>
+                                    </div>
+                                 </form>
+                              </div>
+                           </li>
+                           <!-- <li class="nav-item nav-icon">
+                              <a href="#" class="search-toggle" data-toggle="search-toggle">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22"
+                                    class="noti-svg">
+                                    <path fill="none" d="M0 0h24v24H0z" />
+                                    <path
+                                       d="M18 10a6 6 0 1 0-12 0v8h12v-8zm2 8.667l.4.533a.5.5 0 0 1-.4.8H4a.5.5 0 0 1-.4-.8l.4-.533V10a8 8 0 1 1 16 0v8.667zM9.5 21h5a2.5 2.5 0 1 1-5 0z" />
+                                 </svg>
+                                 <span class="bg-danger dots"></span>
+                              </a>
+                              <div class="iq-sub-dropdown">
+                                 <div class="iq-card shadow-none m-0">
+                                    <div class="iq-card-body">
+                                       <a href="#" class="iq-sub-card">
+                                          <div class="media align-items-center">
+                                             <img src="images/notify/thumb-1.jpg" class="img-fluid mr-3"
+                                                alt="streamit" />
+                                             <div class="media-body">
+                                                <h6 class="mb-0 ">Boot Bitty</h6>
+                                                <small class="font-size-12"> just now</small>
+                                             </div>
+                                          </div>
+                                       </a>
+                                       <a href="#" class="iq-sub-card">
+                                          <div class="media align-items-center">
+                                             <img src="images/notify/thumb-2.jpg" class="img-fluid mr-3"
+                                                alt="streamit" />
+                                             <div class="media-body">
+                                                <h6 class="mb-0 ">The Last Breath</h6>
+                                                <small class="font-size-12">15 minutes ago</small>
+                                             </div>
+                                          </div>
+                                       </a>
+                                       <a href="#" class="iq-sub-card">
+                                          <div class="media align-items-center">
+                                             <img src="images/notify/thumb-3.jpg" class="img-fluid mr-3"
+                                                alt="streamit" />
+                                             <div class="media-body">
+                                                <h6 class="mb-0 ">The Hero Camp</h6>
+                                                <small class="font-size-12">1 hour ago</small>
+                                             </div>
+                                          </div>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li> -->
+                           <li class="nav-item nav-icon">
+                              <a href="#" class="iq-user-dropdown search-toggle p-0 d-flex align-items-center"
+                                 data-toggle="search-toggle">
+                                 <img src="images/user/user.jpg" class="img-fluid avatar-40 rounded-circle" alt="user">
+                              </a>
+                              <div class="iq-sub-dropdown iq-user-dropdown">
+                                 <div class="iq-card shadow-none m-0">
+                                    <div class="iq-card-body p-0 pl-3 pr-3">
+                                       <a href="#" class="iq-sub-card setting-dropdown">
+                                          <div class="media align-items-center">
+                                             <div class="right-icon">
+                                                <i class="ri-file-user-line text-primary"></i>
+                                             </div>
+                                             <div class="media-body ml-3">
+                                                <h6 class="mb-0 ">Manage Profile</h6>
+                                             </div>
+                                          </div>
+                                       </a>
+                                       <a href="#" class="iq-sub-card setting-dropdown">
+                                          <div class="media align-items-center">
+                                             <div class="right-icon">
+                                                <i class="ri-settings-4-line text-primary"></i>
+                                             </div>
+                                             <div class="media-body ml-3">
+                                                <h6 class="mb-0 ">Settings</h6>
+                                             </div>
+                                          </div>
+                                       </a>
+                                       <a href="#" class="iq-sub-card setting-dropdown">
+                                          <div class="media align-items-center">
+                                             <div class="right-icon">
+                                                <i class="ri-settings-4-line text-primary"></i>
+                                             </div>
+                                             <div class="media-body ml-3">
+                                                <h6 class="mb-0 ">Pricing Plan</h6>
+                                             </div>
+                                          </div>
+                                       </a>
+                                       <a href="#" class="iq-sub-card setting-dropdown">
+                                          <div class="media align-items-center">
+                                             <div class="right-icon">
+                                                <i class="ri-logout-circle-line text-primary"></i>
+                                             </div>
+                                             <div class="media-body ml-3">
+                                                <h6 class="mb-0 ">Logout</h6>
+                                             </div>
+                                          </div>
+                                       </a>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+                  <div class="nav-overlay"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- Header End -->
+   <!-- Slider Start -->
+
+   <!-- Slider End -->
+   <!-- MainContent -->
+   <div class="main-content">
+
+      <section id="iq-suggestede" class="s-margin">
+
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Spider-Man Movies</h4>
+
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/iy52J" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://i.pinimg.com/originals/21/d3/f2/21d3f2c91bde87c00bce25fb2edd3fc2.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Spider-Man: No Way Home</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2021</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Spider-Man: No Way Home</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/mWjapuK" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://wallpaperaccess.com/full/1123787.jpg" class="img-fluid" alt="">
+                                 </div>
+                                 <div class="block-description">
+                                    <h6>Spider-Man™: Far From Home</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2019</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Spider-Man™: Far From Home</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/UhO25dB" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/2352/1282352-h-23698d5e8f30"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Spider-Man™: Homecoming</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2017</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Spider-Man™: Homecoming</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/8ial9oC" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://cdn.wallpapersafari.com/53/97/bJ1Pva.jpg" class="img-fluid"
+                                       alt="">
+                                 </div>
+                                 <div class="block-description">
+                                    <h6>Spider-Man™</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2002</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Spider-Man (2002)</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/sstZMw" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/2380/1282380-h-b512a4804d55"
+                                       class="img-fluid" alt="">
+                                 </div>
+                                 <div class="block-description">
+                                    <h6>Spider-Man™ 2</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2004</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Spider-Man™ 2</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/08903" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/2356/1282356-h-a6b1c484c811"
+                                       class="img-fluid" alt="">
+                                 </div>
+                                 <div class="block-description">
+                                    <h6>Spider-Man™ 3</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2007</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Spider-Man™ 3</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/BUnzKx9S" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/2358/1282358-h-daf565810c3c"
+                                       class="img-fluid" alt="">
+                                 </div>
+                                 <div class="block-description">
+                                    <h6>The Amazing Spider-Man</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2012</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">The Amazing Spider-Man</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/gp3QnJw9" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://i.ytimg.com/vi/nXd-dSaBbvA/maxresdefault.jpg" class="img-fluid"
+                                       alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>The Amazing Spider-Man™ 2</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2014</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">The Amazing Spider-Man™ 2</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Avengers Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/yU8ZL8t" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://flixable.b-cdn.net/disney-plus/large/us/marvel-studios-the-avengers.png"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>The Avengers</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2012</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">The Avengers</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/6Qh8S" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/8FB768A4B3B82617F9C2BA8341EED228DA6D4657D201A1BF841B575A718F0DD1/scale?width=1200&aspectRatio=1.78&format=jpeg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Avengers: Age of Ultron</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2015</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Avengers: Age of Ultron</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/SlVoJ6l" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://miro.medium.com/max/1400/1*AYmHZDY1Ou2BJoUtpxq7UA.jpeg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Avengers: Infinity War</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2018</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Avengers: Infinity War</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/XMZ8I" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_2_5x/sources/r1/cms/prod/7460/627460-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Avengers: Endgame</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2019</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Avengers: Endgame</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Thor Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/ZTTEr" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://wallpaperaccess.com/full/645142.jpg" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Thor</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2011</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Thor</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/Qm2j6Vq0" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://wallpaperaccess.com/full/645154.jpg" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Thor: The Dark World</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2013</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Thor: The Dark World</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/dneUJGUF" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_2_5x/sources/r1/cms/prod/6963/636963-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Thor: Ragnarok</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2017</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Thor: Ragnarok</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/ZQ8y6ge" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://images3.alphacoders.com/124/1241167.png" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Thor: Love and Thunder</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2022</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Thor: Love and Thunder</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Venom Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+
+
+
+
+
+                        <li class="slide-item">
+                           <a href="hhttps://shrinke.me/tnIbpOT" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/2346/1282346-h-8c87211478c3"
+                                       class="img-fluid" alt="">
+                                 </div>
+                                 <div class="block-description">
+                                    <h6>Venom</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2018</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Venom</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/d6VM" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://sportshub.cbsistatic.com/i/2021/09/07/16b39672-7470-4389-9963-3a2a8278003d/venom-let-there-be-carnage-poster-1279326.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+                                 <div class="block-description">
+                                    <h6>Venom: Let There Be Carnage</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2021</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Venom: Let There Be Carnage</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Iron Man Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+
+
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/yNBYwE" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_2_5x/sources/r1/cms/prod/4340/644340-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Iron Man</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2008</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Iron Man</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/mQbxp06" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_2_5x/sources/r1/cms/prod/4331/644331-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Iron Man 2</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2010</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Iron Man 2</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/fJJ01v" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/4294/674294-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Iron Man 3</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2013</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Iron Man 3</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Captain America Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+
+
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/ixQ2EZ" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/33C19C31D83E24466C69E31D4EF85685AB22DFCC25ECAE7EFD8C00C63EEE081A/scale?width=1200&aspectRatio=1.78&format=jpeg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Captain America: The First Avenger</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2011</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Captain America: The First Avenger</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/PudmX" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://i.ytimg.com/vi/7SlILk2WMTI/maxresdefault.jpg" class="img-fluid"
+                                       alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Captain America: The Winter Soldier</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2014</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Captain America: The Winter Soldier</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/vkToZ7" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/52C108DF6292E38F697B97A15684BB24A4A7B02D70D1B6B72B7D65E75D24B7A0/scale?width=1200&aspectRatio=1.78&format=jpeg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Captain America: Civil War</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2016</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Captain America: Civil War</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Deadpool Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+
+
+
+
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/jPCBSIc" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/old_images/MOVIE/3257/1770003257/1770003257-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Deadpool</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2016</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Deadpool</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/Gl9YDuXi" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4E27101F5CC885CC11F598E0CF4886376F4BCCC6E92FBF43C087BFB765B14F6D/scale?width=1200&aspectRatio=1.78&format=jpeg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Deadpool 2</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2018</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Deadpool 2</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Doctor Strange Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/2oz7" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/5594/675594-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Doctor Strange</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2016</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Doctor Strange</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/nlnhH" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://external-preview.redd.it/g6haMr4q9uPag1-U3bOJPi0jLdiEOsZRI0VeM4uK_go.jpg?width=640&crop=smart&auto=webp&s=832b85e8cbcf2a26117803138abbc726bffa698d"
+                                       class="img-fluid" alt="">
+                                 </div>
+                                 <div class="block-description">
+                                    <h6>Doctor Strange in the Multiverse of Madness</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2022</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Doctor Strange in the Multiverse of
+                                    Madness</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Ghost Rider Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/joGad" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://images-eu.ssl-images-amazon.com/images/S/pv-target-images/8d23e4e502eb1ebcc39874ef28997ff70389195a008b1c42ceeed94214cc0d66._UY500_UX667_RI_V_TTW_.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Ghost Rider</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2007</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Ghost Rider</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/T2Bls" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://richardcrouse.ca//wp-content/uploads/2013/09/ghost_rider_2.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Ghost Rider: Spirit of Vengeance</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2011</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Ghost Rider: Spirit of Vengeance</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">X-Men Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/ePAw1wwr" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/old_images/MOVIE/943/1770000943/1770000943-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>X-Men</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2000</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">X-Men</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/EfE4AN" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/4752/184752-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>X2: X-Men United</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2003</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">X2: X-Men United</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/Pa93" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/7610/177610-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>X-Men: The Last Stand</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2006</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">X-Men: The Last Stand</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/NnwVhpnq" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/old_images/MOVIE/667/1770000667/1770000667-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>X-Men Origins: Wolverine</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2009</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">X-Men Origins: Wolverine</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/a3e9G" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/4748/184748-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>X-Men: First Class</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2011</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">X-Men: First Class</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/lLzGK6wW" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/7629/177629-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>X-Men: Days of Future Past</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2014</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">X-Men: Days of Future Past</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/JoOUbggN" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img1.hotstarext.com/image/upload/f_auto,t_hcdl/sources/r1/cms/prod/8007/618007-h"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>X-Men: Dark Phoenix</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2019</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">X-Men: Dark Phoenix</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Fast & Furious Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/iXZ1Izdy" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://cdn.drivingline.com/media/723197/1280x720-bmp.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>The Fast and the Furious</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2001</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">The Fast and the Furious</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/uAR632pF" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://flixable.b-cdn.net/hbo-max/large/us/2-fast-2-furious.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>2 Fast 2 Furious</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2003</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">2 Fast 2 Furious</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/qLnrqwP" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://pic-bstarstatic.akamaized.net/ugc/318888f4cf577eb36db2dea5a292b14f.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>The Fast and the Furious: Tokyo Drift</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2006</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">The Fast and the Furious: Tokyo Drift</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/t3Toz" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://external-preview.redd.it/2qr8nGz2pbAk4qdahhXkwJka4Ar3snhiQjHWO9LsN-A.jpg?width=640&crop=smart&auto=webp&s=ca6b2997396eff2ac5a0ad5796a9990b70bbd230"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Fast & Furious</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2009</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Fast & Furious</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/OB4uS0s" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://sobrosnetwork.com/wp-content/uploads/2019/07/fastfive-poster.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Fast Five</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2011</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Fast Five</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/yIvLTOJG" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://4.bp.blogspot.com/-t6Tu7jFwx9c/WKpajdYR25I/AAAAAAAA_f4/YfpsMkRmBCIdAwZtnIkyYqLghQ-WNZEHQCLcB/s1600/FastandFurious6Poster.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Fast & Furious 6</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2013</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Fast & Furious 6</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/8TUeoym" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="http://s9.picofile.com/file/8342452968/Fast_and_Furious_7.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Furious 7</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2015</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Furious 7</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/A8t4F" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://img7.tokyvideo.com/videos/716/71646/previews/previews_0005_custom_1621499067.565.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>The Fate of the Furious</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2017</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">The Fate of the Furious</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/sW7TEW" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://i.ytimg.com/vi/PC5blZ9n810/maxresdefault.jpg" class="img-fluid"
+                                       alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>F9: The Fast Saga</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2021</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">F9: The Fast Saga</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section id="iq-suggestede" class="s-margin">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12 overflow-hidden">
+                  <div class="iq-main-header d-flex align-items-center justify-content-between">
+                     <h4 class="main-title">Guardians of the Galaxy Movies</h4>
+                     <!-- <a href="#" class="text-primary">View all</a> -->
+                  </div>
+                  <div class="suggestede-contens">
+                     <ul class="list-inline favorites-slider row p-0 mb-0">
+
+                        <!-- <li class="slide-item">
+                           <a href="" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="" class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6></h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">20</div>
+                                       <span class="text-white">Hindi - 1080P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;"></h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li> -->
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/RBj6Xd" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img src="https://i.ytimg.com/vi/_FaZsnTcT1A/maxresdefault.jpg" class="img-fluid"
+                                       alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Guardians of the Galaxy</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2014</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Guardians of the Galaxy</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+                        <li class="slide-item">
+                           <a href="https://shrinke.me/1YDKl" target="_blank">
+                              <div class="block-images position-relative">
+                                 <div class="img-box">
+                                    <img
+                                       src="https://cdn1.edgedatg.com/aws/v2/abc/GuardiansoftheGalaxyVol2/showimages/2ff1265d9b80d5136a17ec68aac00852/1600x900-Q90_2ff1265d9b80d5136a17ec68aac00852.jpg"
+                                       class="img-fluid" alt="">
+                                 </div>
+
+                                 <div class="block-description">
+                                    <h6>Guardians of the Galaxy Vol. 2</h6>
+                                    <div class="movie-time d-flex align-items-center my-2">
+                                       <div class="badge badge-secondary p-1 mr-2">2017</div>
+                                       <span class="text-white">Hindi - 720P</span>
+                                    </div>
+                                    <div class="hover-buttons">
+                                       <span class="btn btn-hover"><i class="fa fa-play mr-1" aria-hidden="true"></i>
+                                          Watch Now</span>
+                                    </div>
+                                 </div>
+                                 <h6 style="text-align:center; padding: 5px;">Guardians of the Galaxy Vol. 2</h6>
+                                 <div class="block-social-info">
+                                    <ul class="list-inline p-0 m-0 music-play-lists">
+                                       <li><span><i class="ri-volume-mute-fill"></i></span></li>
+                                       <li><span><i class="ri-heart-fill"></i></span></li>
+                                       <li><span><i class="ri-add-line"></i></span></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </a>
+                        </li>
+
+
+
+
+
+
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+      <section>
+
+         <div class="wrapper">
+            <div class="iq-comingsoon pt-5">
+               <div class="container-fluid">
+                  <div class="row justify-content-center">
+                     <div class="col-sm-8 text-center">
+                        <div class="iq-comingsoon-info" style="padding-bottom: 73px;">
+
+                           <img src="images/logo.png" class="img-fluid w-25" alt="">
+
+                           <h2 class="mt-4 mb-1"></h2>
+                           <p>Please share this website to your friends and family, so they can watch these movies too
+                              for Free!. We are
+                              working very hard to give you the best experience possible.</p>
+                           <a href="whatsapp://send?text=https://movies.newtonas.tk/" target="_blank"
+                              style="font-size: 22px;">
+                              Share <i class="fa fa-whatsapp"></i></a>
+
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+   </div>
+   <footer class="mb-0">
+      <div class="container-fluid">
+         <div class="block-space">
+            <div class="row">
+               <div class="col-lg-3 col-md-4">
+                  <ul class="f-link list-unstyled mb-0">
+                     <li><a href="#">About Us</a></li>
+                     <li><a href="#">Movies</a></li>
+                     <li><a href="#">Anime</a></li>
+                     <li><a href="#">Coporate Information</a></li>
+                     <li><a href="https://youtu.be/uQW9KQ1BYXo" target="_blank">Can't Open Links?</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <ul class="f-link list-unstyled mb-0">
+                     <li><a href="#">Privacy Policy</a></li>
+                     <li><a href="#">Terms & Conditions</a></li>
+                     <li><a href="#">Help</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 col-md-4">
+                  <ul class="f-link list-unstyled mb-0">
+                     <li><a href="#">FAQ</a></li>
+                     <li><a href="#">Cotact Us</a></li>
+                     <li><a href="#">Legal Notice</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-3 col-md-12 r-mt-15">
+                  <div class="d-flex">
+                     <a href="#" class="s-icon">
+                        <i class="ri-facebook-fill"></i>
+                     </a>
+                     <a href="#" class="s-icon">
+                        <i class="ri-skype-fill"></i>
+                     </a>
+                     <a href="#" class="s-icon">
+                        <i class="ri-linkedin-fill"></i>
+                     </a>
+                     <a href="#" class="s-icon">
+                        <i class="ri-whatsapp-fill"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="copyright py-2">
+         <div class="container-fluid">
+            <p class="mb-0 text-center font-size-14 text-body">NEWTON_AS - 2022 All Rights Reserved</p>
+         </div>
+      </div>
+   </footer>
+   <!-- MainContent End-->
+   <!-- back-to-top -->
+   <div id="back-to-top">
+      <a class="top" href="#top" id="top"> <i class="fa fa-angle-up"></i> </a>
+   </div>
+   <!-- back-to-top End -->
+   <!-- jQuery, Popper JS -->
+   <script src="js/jquery-3.4.1.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <!-- Bootstrap JS -->
+   <script src="js/bootstrap.min.js"></script>
+   <!-- Slick JS -->
+   <script src="js/slick.min.js"></script>
+   <!-- owl carousel Js -->
+   <script src="js/owl.carousel.min.js"></script>
+   <!-- select2 Js -->
+   <script src="js/select2.min.js"></script>
+   <!-- Magnific Popup-->
+   <script src="js/jquery.magnific-popup.min.js"></script>
+   <!-- Slick Animation-->
+   <script src="js/slick-animation.min.js"></script>
+   <!-- Custom JS-->
+   <script src="js/custom1.js"></script>
+
+</body>
+
+<!-- Mirrored from iqonic.design/themes/streamitnew/frontend/html/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Sep 2020 20:04:10 GMT -->
+
+</html>
