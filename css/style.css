@@ -464,10 +464,10 @@ header .navbar ul li:last-child {
 	background-image: url("https://cdn.vox-cdn.com/thumbor/fetqHwMuYKl-lBSvoiAPAStAzyY=/0x53:1688x1201/1200x675/filters:focal(709x466:979x736)/cdn.vox-cdn.com/uploads/chorus_image/image/70826495/DrStrange2_Payoff_1_Sht_v6_Lg.0.jpeg");
 }
 
-/* #home-slider .slick-bg.s-bg-3 {
-	background-image: url("https://images2.alphacoders.com/119/thumb-1920-1193919.jpg");
-} */
 #home-slider .slick-bg.s-bg-3 {
+	background-image: url("https://images2.alphacoders.com/119/thumb-1920-1193919.jpg");
+}
+#home-slider .slick-bg.s-bg-4 {
 	background-image: url("https://images.thedirect.com/media/article_full/avatar-2-reviews.jpg");
 }
 
