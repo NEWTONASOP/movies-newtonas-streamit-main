@@ -467,6 +467,9 @@ header .navbar ul li:last-child {
 #home-slider .slick-bg.s-bg-3 {
 	background-image: url("https://images2.alphacoders.com/119/thumb-1920-1193919.jpg");
 }
+#home-slider .slick-bg.s-bg-4 {
+	background-image: url("https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_FMjpg_UX1000_.jpg");
+}
 
 /* slider1  */
 
